@@ -14,6 +14,9 @@ For use Netlify's continuous deployment pipeline the following changes need to b
 
 !["netlify settings screenshot"](./documentation~/settings-screenshot.webp)
 
+## Gotchas
+- Currently with continuous deployment you will not be able to use KTX2 compression using our production build post processing (this is run via `npm run build:production`)
+
 ## Troubleshooting
 ### Deployment fails
 - Try deleting your package.lock.json in your project (and optionally add it to your `.gitignore` file)
