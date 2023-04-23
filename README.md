@@ -16,7 +16,7 @@ For use Netlify's continuous deployment pipeline the following changes need to b
 
 ## Troubleshooting
 ### Deployment fails
-- Make sure the package.lock.json is ignored in your project (add it to your `.gitignore` file)
+- Try deleting your package.lock.json in your project (and optionally add it to your `.gitignore` file)
 
 
 ## Internal
