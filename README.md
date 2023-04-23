@@ -1,5 +1,5 @@
 # Needle Engine on Netlify
-This repository contains a vite based web project generated in Unity.  
+This repository contains a vite based web project generated in Unity ([Live Link](https://needle-engine-netlify-sample.netlify.app/)).  
 For use Netlify's continuous deployment pipeline the following changes need to be made:
 - Make sure gzip is disabled in `vite.config.js`.   
   → Remove this line `useGzip(needleConfig) ? viteCompression({ deleteOriginFile: true }) : null` in `vite.config.js` in your project
