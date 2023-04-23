@@ -5,6 +5,8 @@ For use Netlify's continuous deployment pipeline the following changes need to b
   → Remove this line `useGzip(needleConfig) ? viteCompression({ deleteOriginFile: true }) : null` in `vite.config.js` in your project
 
 ## Setup on Netlify
+
+0) [Create a new project on netlify](https://app.netlify.com/start/repos?entryPoint=from%20TeamOverview) using a git provider like Github
 1) Go to "Site settings/Build & deploy" and click on "Continous deployment"
 2) In "Build Settings" enter:
   - Build command: `npm run build:dev`
