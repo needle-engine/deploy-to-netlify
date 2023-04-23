@@ -13,6 +13,8 @@ export default defineConfig(async ({ command }) => {
         assetsInclude: ['*'],
         plugins: [
             basicSsl(),
+            // make sure to NOT use gzip when deploying to netlify
+            // useGzip(needleConfig) ? viteCompression({ deleteOriginFile: true }) : null,
             needlePlugins(command, needleConfig),
         ],
 
