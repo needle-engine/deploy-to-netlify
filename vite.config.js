@@ -13,7 +13,6 @@ export default defineConfig(async ({ command }) => {
         assetsInclude: ['*'],
         plugins: [
             basicSsl(),
-            useGzip(needleConfig) ? viteCompression({ deleteOriginFile: true }) : null,
             needlePlugins(command, needleConfig),
         ],
 
