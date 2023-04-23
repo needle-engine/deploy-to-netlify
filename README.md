@@ -6,6 +6,7 @@
   - Build command: `npm run build:dev`
   - Publish directory: `dist`
 
+!["netlify settings screenshot"](./documentation~/settings-screenshot.webp)
 
 ## Troubleshooting
 ### Deployment fails
