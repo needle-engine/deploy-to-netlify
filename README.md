@@ -11,3 +11,7 @@
 ### Deployment fails
 - Make sure the package.lock.json is ignored in your project (add it to your `.gitignore` file)
 - Make sure gzip is disabled in `vite.config.js`. Remove this line `useGzip(needleConfig) ? viteCompression({ deleteOriginFile: true }) : null`
+
+
+## Internal
+- [Netlify project url](https://app.netlify.com/sites/needle-engine-netlify-sample)
