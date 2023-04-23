@@ -1,0 +1,10 @@
+{
+  "needleEditor": null,
+  "meta": null,
+  "absolutePath": "https://localhost:3000",
+  "sceneName": "Netlify",
+  "deployOnly": false,
+  "gzip": true,
+  "allowHotReload": true,
+  "hasProLicense": true
+}
